@@ -1,3 +1,49 @@
 .flex {
     display: flex;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 9vh;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-evenly;
+    padding: 5px 15px;
+    background-color: #A0DFC7;
+    color: #113535;
+}
+
+#navbar-btns {
+    justify-content: center;
+    align-items: center;
+}
+#navbar-btns a {
+    margin: 0 15px 0 0;
+    text-decoration: none;
+    color: #113535;
+}
+
+#navbar-logo {
+    height: 80%;
+}
+
+#navbar-btns input {
+    border: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    height: 3vh;
+}
+
+#src-btn {
+    background-color: white;
+    border-radius: 5 5px 5px 0;
+    fill: #113535;
+    height: 3vh;
+    padding: 5px;
+    
+}
