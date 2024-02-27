@@ -1,10 +1,7 @@
-import "./Conteudo.css"
+import "./Review.css"
 
-function Conteudo() {
+function Review() {
     return (<body>
-        <header>
-            <h1> Updates</h1>
-        </header>
 
         <main id="conteudo-homepage">
 
@@ -15,27 +12,20 @@ function Conteudo() {
             <section id="tweet">
 
                 <div id="titulo-tweet">
-
                     <div id="foto-titulo">
                         <img id="foto-perfil" src="src/assets/gato.jpg" alt="gato-perfil" />
                         <h3 id="usuario-avaliou"> Pedro Pascal! avaliou A guerra dos Tronos</h3>
                     </div>
                     <p>13/02/24</p>
-
                 </div>
 
                 <div id="corpo-tweet">
 
                     <a href="">
-                    <img id="foto-livro" src="src/assets/guerra dos tronos.jpg" alt="" />
+                        <img id="foto-livro" src="src/assets/guerra dos tronos.jpg" alt="" />
                     </a>
-                    
-                    
-
-
 
                     <div id="texto-tweet">
-                        
                         <h2>A Guerra dos Tronos - George R.R. Martin</h2>
                         <h2>Avaliação</h2>
                         <p> O aspecto mais impressionante de "A Guerra dos Tronos" é a maneira como Martin
@@ -43,12 +33,20 @@ function Conteudo() {
                             evento é previsível. Isso cria uma sensação de urgência e imprevisibilidade que
                             mantém o leitor à beira do assento, ansioso para descobrir o que acontecerá a seguir.
                             Além disso, a prosa de Martin é fluida e envolvente, tornando fácil... Leia Mais</p>
-
                     </div>
+                
+                </div>
 
-
+                <hr id="linha" />
+                <div id="like-tweet">
+                    <a id="link-like" href="">
+                        <img src="src/assets/like.svg" alt="" />
+                    </a>
+                    <input id="comentario" type="text" />
 
                 </div>
+                
+
             </section>
 
         </main>
@@ -58,4 +56,4 @@ function Conteudo() {
     </body>)
 }
 
-export default Conteudo
+export default Review
