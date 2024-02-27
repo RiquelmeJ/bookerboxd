@@ -72,15 +72,16 @@ nav {
 }
 
 #user-btn {
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     border-radius: 5px;
     height: 5vh;
-    width: 200px;
+    width: fit-content;
     background-color: #113535;
     color: #fff;
-    padding:0 5px;
+    padding:0 15px;
 }
 
 #user-btn img{
