@@ -1,6 +1,6 @@
 import "./Conteudo.css"
 
-function Conteudo() {
+function Content() {
     return (<body>
         <header>
             <h1> Updates</h1>
@@ -58,4 +58,4 @@ function Conteudo() {
     </body>)
 }
 
-export default Conteudo
+export default Content

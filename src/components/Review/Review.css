@@ -29,11 +29,12 @@
     padding: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 400px;
+    width: 680px;
     height: 24px;
     background-color: transparent;
     border-radius: 6px;
     border:1px solid #A0DFC7;
+    outline-color: #A0DFC7;
 }
 #foto-perfil{
     aspect-ratio: 1/1;

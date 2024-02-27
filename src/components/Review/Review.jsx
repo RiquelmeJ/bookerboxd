@@ -50,10 +50,8 @@ function Review() {
                                 <img src="src/assets/follow.svg" alt="" />
                             </a>
                         </li>
-                        <li>
-                            <input id="comentario" type="text" placeholder=" Escreva um comentário"/>
-                        </li>
                         <li className="link">
+                            <input id="comentario" type="text" placeholder=" Escreva um comentário" />
                             <a className="link" href="">
                                 <img src="src/assets/send-icon.svg" alt="" />
                             </a>
