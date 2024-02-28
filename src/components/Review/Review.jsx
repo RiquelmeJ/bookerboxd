@@ -11,8 +11,8 @@ function Review() {
 
             <section id="tweet-logged">
 
-                <div id="titulo-tweet">
-                    <div id="foto-titulo">
+                <div className="titulo">
+                    <div className="titulo">
                         <img id="foto-perfil" src="src/assets/gato.jpg" alt="gato-perfil" />
                         <h3 id="usuario-avaliou"> Pedro Pascal! avaliou A guerra dos Tronos</h3>
                     </div>

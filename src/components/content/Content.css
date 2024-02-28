@@ -1,5 +1,5 @@
 
-#conteudo-homepage{
+.conteudo-flex{
     display: flex;
 }
 #avisos{
@@ -39,13 +39,9 @@
     height: 176px;
     border-radius: 5%;
 }
-#corpo-tweet{
-    display: flex;
-}
 #texto-tweet{
     padding-left: 30px;
 }
-
 #comeco-conteudo{
     display: center;
 }

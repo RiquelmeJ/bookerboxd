@@ -46,15 +46,11 @@
 #usuario-avaliou{
     margin-left: 20px;
 }
-#foto-titulo{
+.titulo{
     display: flex;
     justify-content:space-between;
-    
 }
-#titulo-tweet{
-    display: flex;
-    justify-content: space-between;
-}
+
 #foto-livro{
     width: 123px;
     height: 176px;

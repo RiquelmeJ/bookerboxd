@@ -1,4 +1,4 @@
-import "./Conteudo.css"
+import "./Content.css"
 
 function Content() {
     return (<>
@@ -7,7 +7,7 @@ function Content() {
             <h1> Updates</h1>
         </header>
 
-        <main id="conteudo-homepage">
+        <main className="conteudo-flex">
 
             <section id="avisos">
                 <p>Hello</p>
@@ -25,7 +25,7 @@ function Content() {
 
                 </div>
 
-                <div id="corpo-tweet">
+                <div className="conteudo-flex">
 
                     <a href="">
                     <img id="foto-livro" src="src/assets/guerra dos tronos.jpg" alt="" />

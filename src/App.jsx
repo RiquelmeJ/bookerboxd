@@ -10,10 +10,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Content />
+      
+
+      {/* <Content />
       <Sidecontent />
       <Review/>
-      <p>Hello, world!</p>
+      <p>Hello, world!</p> */}
       <Footer />
       <Bookactions />
     </>
