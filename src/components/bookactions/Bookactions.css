@@ -1,0 +1,42 @@
+#bookactions{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 20%;
+    text-align: center;
+    border: red solid;
+}
+
+#bookcover {
+    max-width: 222px;
+    max-height: 318px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#bookactions button {
+    margin: 0;
+    border: none;
+    background-color: #113535;
+    color: white;
+    font-family: "Commissioner", sans-serif;
+    font-size: 1.15rem;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.2s ease-out 100ms
+}
+
+
+#bookactions button:hover {
+    border: #113535 solid 1px;
+    background-color: white;
+    color: #113535;
+}
+
+#bookactions p {
+    margin: 15px 0 5px 0;
+    padding: 0;
+}
+
