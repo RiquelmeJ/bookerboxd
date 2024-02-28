@@ -1,20 +1,16 @@
 import "./Review.css"
+import { Rating } from '@mui/material';
 
 function Review() {
     return (<body>
 
         <main id="conteudo-homepage">
-
-            <section id="avisos">
-                
-            </section>
-
             <section id="tweet-logged">
 
-                <div className="titulo">
+                <div className="header">
                     <div className="titulo">
                         <img id="foto-perfil" src="src/assets/gato.jpg" alt="gato-perfil" />
-                        <h3 id="usuario-avaliou"> Pedro Pascal! avaliou A guerra dos Tronos</h3>
+                        <p> <span id="username">Pedro Pascal!</span> avaliou <span id="booktitle">A Guerra dos Tronos</span>.</p>
                     </div>
                     <p>13/02/24</p>
                 </div>
@@ -27,12 +23,12 @@ function Review() {
 
                     <div id="texto-tweet">
                         <h2>A Guerra dos Tronos - George R.R. Martin</h2>
-                        <h2>Avaliação</h2>
+                        <Rating name="half-rating" defaultValue={4.5} precision={0.5} readOnly/>
                         <p> O aspecto mais impressionante de "A Guerra dos Tronos" é a maneira como Martin
                             subverte as expectativas do leitor. Nenhum personagem está seguro e nenhum
                             evento é previsível. Isso cria uma sensação de urgência e imprevisibilidade que
                             mantém o leitor à beira do assento, ansioso para descobrir o que acontecerá a seguir.
-                            Além disso, a prosa de Martin é fluida e envolvente, tornando fácil... Leia Mais</p>
+                            Além disso, a prosa de Martin é fluida e envolvente, tornando fácil... <a href=""></a>Leia Mais</p>
                     </div>
 
                 </div>

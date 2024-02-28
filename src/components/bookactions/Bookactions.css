@@ -1,11 +1,15 @@
 #bookactions{
+    position: sticky;
+    top: 20px;
+    padding: 0;
     display: flex;
     justify-content: center;
+    align-items: start;
     flex-direction: column;
     width: 100%;
-    max-width: 20%;
+    max-width: 25%;
+    height: fit-content;
     text-align: center;
-    border: red solid;
 }
 
 #bookcover {
@@ -40,3 +44,6 @@
     padding: 0;
 }
 
+#actions {
+    width: 100%;
+}

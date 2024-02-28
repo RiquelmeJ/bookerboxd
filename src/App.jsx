@@ -11,14 +11,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <Bookinfo />
+      <div id="content">
+        <Bookactions />
+        <Bookinfo />
 
-      {/* <Content />
-      <Sidecontent />
-      <Review/>
-      <p>Hello, world!</p> */}
+        {/* <Content />
+        <Sidecontent />
+        <Review/>
+        <p>Hello, world!</p> */}
+      </div>
       <Footer />
-      <Bookactions />
     </>
   );
 }
