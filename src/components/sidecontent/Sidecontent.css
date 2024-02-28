@@ -1,4 +1,5 @@
 #side {
+    font-family: "Bitter", serif;
     max-width: 30%;
 }
 #book-holder {
@@ -10,6 +11,8 @@
 }
 
 #side a {
+    text-decoration: underline;
+    font-family: "Commissioner", sans-serif;
     margin-top: 0;
     color: black;
 }
@@ -32,10 +35,12 @@
 }
 
 #popup {
+    font-family: "Bitter", serif;
     color: #113535;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     max-width: 30%;
@@ -43,6 +48,7 @@
 }
 
 #popup button {
+    font-family: "Commissioner", sans-serif;
     margin: 10px auto 0 auto;
     background-color: #113535;
     border-radius: 3px;
@@ -58,12 +64,15 @@
 }
 
 #popup a {
+    font-family: "Commissioner", sans-serif;
     display: block;
     color: #113535;
+    text-decoration: underline;
     font-size: 0.9rem;
 }
 
 #sentence {
+    font-family: "Bitter", serif;
     margin-top: 20px;;
     max-width: 30%;
     border: solid;
