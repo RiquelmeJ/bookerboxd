@@ -9,7 +9,7 @@ function Review() {
                 <p>Hello</p>
             </section>
 
-            <section id="tweet">
+            <section id="tweet-logged">
 
                 <div id="titulo-tweet">
                     <div id="foto-titulo">
@@ -34,18 +34,35 @@ function Review() {
                             mantém o leitor à beira do assento, ansioso para descobrir o que acontecerá a seguir.
                             Além disso, a prosa de Martin é fluida e envolvente, tornando fácil... Leia Mais</p>
                     </div>
-                
+
                 </div>
 
                 <hr id="linha" />
                 <div id="like-tweet">
-                    <a id="link-like" href="">
-                        <img src="src/assets/like.svg" alt="" />
-                    </a>
-                    <input id="comentario" type="text" />
+                    <ul id="icons">
+                        <li className="link">
+                            <a className="link" href="">
+                                <img src="src/assets/like.svg" alt="" />
+                            </a>
+                        </li>
+                        <li className="link">
+                            <a className="link" href="">
+                                <img src="src/assets/follow.svg" alt="" />
+                            </a>
+                        </li>
+                        <li className="link">
+                            <input id="comentario" type="text" placeholder=" Escreva um comentário" />
+                            <a className="link" href="">
+                                <img src="src/assets/send-icon.svg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+
+
+
 
                 </div>
-                
+
 
             </section>
 
