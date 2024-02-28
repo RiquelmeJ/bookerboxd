@@ -1,8 +1,9 @@
 import "./Conteudo.css"
 
 function Content() {
-    return (<body>
-        <header>
+    return (<>
+    
+        <header id="comeco-conteudo">
             <h1> Updates</h1>
         </header>
 
@@ -55,7 +56,7 @@ function Content() {
 
 
 
-    </body>)
+        </>);
 }
 
 export default Content
