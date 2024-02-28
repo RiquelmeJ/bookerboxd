@@ -1,0 +1,85 @@
+#side {
+    max-width: 30%;
+}
+#book-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 30vw;
+    justify-content: space-between;;
+}
+
+#side a {
+    margin-top: 0;
+    color: black;
+}
+.bookCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: black;
+}
+
+.bookCover img {
+    max-width: 123px;
+    max-height: 176px;
+    border-radius: 5%;
+}
+
+#side h1 {
+    margin-bottom: 10px;
+}
+
+#popup {
+    color: #113535;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 30%;
+    background-color: #FFF9C8;
+}
+
+#popup button {
+    margin: 10px auto 0 auto;
+    background-color: #113535;
+    border-radius: 3px;
+    width: 80%;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+}
+
+#popup p{
+    padding: 0 10%;
+    font-size: 1.25rem;
+}
+
+#popup a {
+    display: block;
+    color: #113535;
+    font-size: 0.9rem;
+}
+
+#sentence {
+    margin-top: 20px;;
+    max-width: 30%;
+    border: solid;
+    border-width: 1px 0 1px 0;
+    border-color: #113535;
+    color: #113535;
+}
+
+#sentence p {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+#sidecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
