@@ -1,5 +1,6 @@
 import "./App.css";
 import Review from "./components/Review/Review.jsx";
+import Bookinfo from "./components/book-info/Book-info.jsx";
 import Content from "./components/content/Content.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      
+      <Bookinfo />
 
       {/* <Content />
       <Sidecontent />

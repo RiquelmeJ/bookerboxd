@@ -6,7 +6,7 @@ function Review() {
         <main id="conteudo-homepage">
 
             <section id="avisos">
-                <p>Hello</p>
+                
             </section>
 
             <section id="tweet-logged">
