@@ -2,6 +2,15 @@
     display: flex;
 }
 
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,8 +31,10 @@ nav {
     justify-content: center;
     align-items: center;
 }
-#navbar-btns a {
-    margin: 0 15px 0 0;
+
+.navbar-link {
+    font-size: 1.25rem;
+    margin: 0 20px 0 0;
     text-decoration: none;
     color: #113535;
 }
@@ -32,18 +43,52 @@ nav {
     height: 80%;
 }
 
-#navbar-btns input {
+#searchbar {
+    height: 5vh;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+#src-bar {
     border: none;
-    padding: 5px;
+    padding: 0 10px;
+    margin-right: 1px;
     border-radius: 5px 0 0 5px;
-    height: 3vh;
+    height: 100%;
 }
 
 #src-btn {
-    background-color: white;
-    border-radius: 5 5px 5px 0;
-    fill: #113535;
-    height: 3vh;
-    padding: 5px;
-    
+    background-color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+    padding: 3px;
+    margin: 0;
+}
+
+#src-btn img {
+    height: 100%;
+    padding: 0;
+}
+
+#user-btn {
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 5vh;
+    width: fit-content;
+    background-color: #113535;
+    color: #fff;
+    padding:0 15px;
+}
+
+#user-btn img{
+    height: 80%;
+    margin-right: 5px;
+}
+
+#user-btn em {
+    margin-left: 3px;
 }

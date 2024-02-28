@@ -1,13 +1,15 @@
 import "./App.css";
-import Conteudo from "./components/conteudo/Conteudo";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
+import Review from "./components/Review/Review.jsx";
+import Content from "./components/content/Content.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Navbar from "./components/navbar/Navbar.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Conteudo />
+      <Content />
+      <Review/>
       <p>Hello, world!</p>
       <Footer />
     </>
